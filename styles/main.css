@@ -1,0 +1,182 @@
+:root {
+    --white: #f9faf8;
+    --gray: #e5e7eb;
+    --blue: #3882f9;
+    --black: #1f2937;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header, .awesome {
+    background-color: #1f2937;
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: var(--white);
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.header ul li {
+    font-size: 18px;
+    color: var(--gray);
+    opacity: .7;
+}
+
+.awesome {
+    padding: 100px 200px;
+}
+
+.awesome-text {
+    width: 40%;
+    height: 250px;
+}
+
+.awesome-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.awesome-text p {
+    color: var(--gray);
+    opacity: 0.7;
+}
+
+.btn-p {
+    border: none;
+    background-color: var(--blue);
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: var(--white);
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.awesome-img {
+    width: 55%;
+}
+
+.awesome-img img{
+    width: 100%;
+    height: 250px;
+}
+
+.random {
+    padding: 50px 200px;
+}
+
+.random h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--black);
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.col {
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.col img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 5px solid var(--blue);
+}
+
+.col p {
+    opacity: .7;
+}
+
+.quote {
+    background-color: var(--gray);
+    padding: 100px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: var(--black);
+}
+
+.quote-author {
+    font-weight: 700;
+    text-align: right;
+}
+
+.call {
+    padding: 100px 200px;
+}
+
+.call-inside {
+    background-color: var(--blue);
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.row-text {
+    width: 70%;
+}
+
+.row-text-header {
+    font-size: 24px;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.row-text-t {
+    font-weight: 300;
+    color: var(--gray);
+}
+
+.row-button {
+    text-align: center;
+}
+
+.btn-o {
+    border: 1px solid var(--white);
+    background-color: var(--blue);
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: var(--white);
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: var(--black);
+    text-align: center;
+    padding: 40px;
+}
+
+.footer p {
+    color: var(--gray);
+}
